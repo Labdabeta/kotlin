@@ -94,6 +94,7 @@ data class KotlinWebpackConfig(
         val open: Any = true,
         val overlay: Any = false,
         val port: Int = 8080,
+        val host: String = "localhost",
         val proxy: Map<String, Any>? = null,
         val contentBase: List<String>
     ) : Serializable
